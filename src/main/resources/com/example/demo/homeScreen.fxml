@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="418.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/snake_ladder2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView id="playButton" fitHeight="150.0" fitWidth="200.0" layoutX="56.0" layoutY="487.0" onMouseClicked="#playClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/playButton.png" />
+         </image>
+      </ImageView>
+      <ImageView id="exitButton" fitHeight="119.0" fitWidth="193.0" layoutX="197.0" layoutY="487.0" onMouseClicked="#exitClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/exitButton.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

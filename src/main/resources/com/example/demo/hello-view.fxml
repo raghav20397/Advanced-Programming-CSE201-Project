@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <ImageView fitHeight="720.0" fitWidth="550.0" layoutX="-61.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/background.jpg" />
+   </ImageView>
+   <ImageView fitHeight="540.0" fitWidth="399.0" layoutX="14.0" layoutY="55.0" onMouseClicked="#Position" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/board.jpg" />
+   </ImageView>
+   <ImageView fx:id="blueToken" fitHeight="38.0" fitWidth="39.0" layoutX="7.0" layoutY="603.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/blue_token-removebg-preview.png" />
+   </ImageView>
+   <ImageView fx:id="redToken" fitHeight="38.0" fitWidth="39.0" layoutX="27.0" layoutY="605.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/red_token-removebg-preview.png" />
+   </ImageView>
+   <ImageView fx:id="leftpanel" fitHeight="60.0" fitWidth="154.0" layoutX="81.0" layoutY="624.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/left-panel.jpg" />
+   </ImageView>
+   <Text fx:id="player1Text" fill="WHITE" layoutX="129.0" layoutY="658.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1" />
+   <ImageView fx:id="rightpanel" fitHeight="60.0" fitWidth="95.0" layoutX="232.0" layoutY="624.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/right-panel.jpg" />
+   </ImageView>
+   <Text fx:id="player2Text" fill="WHITE" layoutX="236.0" layoutY="658.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 2" />
+   <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="283.0" layoutY="636.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/red_token-removebg-preview.png" />
+   </ImageView>
+   <ImageView fitHeight="60.0" fitWidth="65.0" layoutX="173.0" layoutY="623.0" onMouseClicked="#arrowPosition" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/dice-place.jpg" />
+   </ImageView>
+   <ImageView fx:id="dice" fitHeight="35.0" fitWidth="44.0" layoutX="186.0" layoutY="635.0" onMouseClicked="#diceRoll" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../Images/Dice-images/dice1.jpeg" />
+   </ImageView>
+   <Button fx:id="start" layoutX="157.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#gameStart" opacity="0.0" prefHeight="38.0" prefWidth="92.0" text="Start" />
+   <ImageView fx:id="arrow" fitHeight="38.0" fitWidth="42.0" layoutX="182.0" layoutY="590.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../Images/arrow.png" />
+      </image>
+   </ImageView>
+</Pane>
